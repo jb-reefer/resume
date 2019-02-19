@@ -14,12 +14,12 @@ export interface IHeader {
 
 export const Header = (props: IHeader & IDuration) => (
   <div>
+    <div className="Role">{props.role}</div>
     <div className="Header">
       <div className="Subheader">{props.company}</div>
       <Duration to={props.to} from={props.from} />
     </div>
     <div className="Subheader">{props.city}</div>
-    <div className="Role">{props.role}</div>
   </div>
 );
 

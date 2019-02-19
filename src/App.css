@@ -1,5 +1,11 @@
 .Container {
   margin: 2%;
   padding: 1%;
-  /* border: 0.25rem solid lightgrey */
+  font-size: 18pt;
+}
+
+@media (max-width: 375px) {
+  .Container {
+    font-size: 13pt;
+  }
 }

@@ -3,16 +3,19 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   width: 100%;
-}
-
-.Subheader {
-  font-weight: bold;
+  /* font-style: italic; */
 }
 
 .Role {
-  font-style: italic;
+  font-weight: 900;
 }
 
-.Entries {
-  
+@media (max-width: 450px) {
+  .Subheader {
+    font-size: 13pt;
+  }
+
+  .Role {
+    font-style: normal;
+  }
 }
