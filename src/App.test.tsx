@@ -9,16 +9,15 @@ import { Entry } from './components/Entries';
 
 configure({ adapter: new Adapter() });
 
-
-// xit('renders without crashing', () => {
-//   const div = document.createElement('div');
-//   ReactDOM.render(<App />, div);
-//   ReactDOM.unmountComponentAtNode(div);
-// });
+it('renders without crashing', () => {
+  const div = document.createElement('div');
+  ReactDOM.render(<App />, div);
+  ReactDOM.unmountComponentAtNode(div);
+});
 
 describe('Individual components', () => {
   it('Renders <Header />', () => {
-    const buffer = shallow(<Header company="IPSoft" city="New York, NY" role="UI/UX Technical Lead" />);
+    const buffer = shallow(<Header company="IPSoft" city="New York, NY" role="UI/UX Technical Lead" from="August 1901" to="July 2090" />);
     console.log(buffer.html());
   });
 
