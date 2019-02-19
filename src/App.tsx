@@ -4,6 +4,7 @@ import { Entry } from './components/Entries';
 import data from './data';
 import './App.css'
 import { Hero } from './components/Hero';
+import { Education } from './components/Education';
 
 const App = (props: any) => (
   <div className="Container">
@@ -14,6 +15,8 @@ const App = (props: any) => (
         {job.children.map(entry => <Entry>{entry}</Entry>)}
       </ExperienceBlock>
     ))}
+    <br />
+    <Education />
   </div>
 );
 

@@ -48,7 +48,31 @@ const data: IExperienceBlock[] = [
     "Product owner for multiple critical tools, such as a command line client for interacting with and scripting the platform, a tool for bulk loading data (users, subscriptions, applications) into the platform, and our mission-critical, failure-tolerant Installer/Upgrader/Uninstaller desktop application (which has more than 150,000 LOC)",
     "Work in Ruby, Go, Python, C#, Bash, Scala, and Powershell"
   ]
-}]
+},
+{
+  company: "QueBIT Consulting LLC",
+  from: "March 2013",
+  to: "September 2015",
+  city: "New York, NY",
+  role: "Full Stack Engineer",
+  children: [
+    "Massively refactored the existing 12,000 line code base by encapsulating common code, removing unused historical functions, and splitting large classes to clarify and simplify program flow",
+    "Utilized XML comments to improve error handling, swap out the logger, and enhance productivity when referencing existing functions",
+    "Improved data load speed by 250+ times by using batch data pulling to reduce the number of roundtrips over the network/to TM1",
+    "Implemented Change-awareness flags across the entire object model to only save deltas which increased data save speed by 100+ times",
+    "Improved user experience by using WPF Databinding, gathering customer feedback, and by utilizing better error handling to provide users a clearer and more concise description of steps necessary to remediate problems",
+    "Served as primary point of contact for ReportWORQ to provide assistance to customers during outages, gather feedback/implement potential improvements, and manage client expectations",
+    "Collaborated with another developer to write a data layer, using the Factory pattern, to read OpenXML (.xlsx) files",
+    "Developed a future-proof design to allow for reading from any Workbook source such as Google Docs, Apple Numbers, OpenOffice (Factory took a Provider, Provider implemented Interface of reading methods)",
+    "Heavily modified existing Excel Expression evaluator, an Expression-to-C# compiler (rebuilt parsing and AST creation, modified AST evaluation, fixed serious",
+    "Reworked Abstract Syntax Tree creation, transversal logic, replaced expression parsing with a third party library to avoid faulty in-house parser efficiently, and removed deprecated logical nodes",
+    "Implemented conversion of WebWORQ object model to DotNetHighCharts API object model to allow for real-time charting of customer reporting data",
+    "Extended DotNetHighCharts API to produce HighMaps in JavaScript",
+    "Configured JMeter to stress test, analyze, and report on web page performance under arbitrary loads to ensure Nielsen Ratings could provide an acceptable user experience with their existing hardware configuration with 2,000+ concurrent TM1 users",
+    "Reverse engineered the method flow of TM1Web, to spoof authentication, manipulate data, request specific pages based on user input, and log out, while analyzing performance of each step",
+    "Extended the built-in capabilities of JMeter by using batch scripting and TM1 cache invalidation (non-trivial) using TurboIntegrator scripting"
+  ]
+}];
 
 
 export default data;
