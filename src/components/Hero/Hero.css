@@ -4,3 +4,11 @@
   text-align: center;
   font-style: normal;
 }
+
+h1 {
+  margin: 0;
+}
+
+.Contacts > * {
+  padding: 1rem;
+}
