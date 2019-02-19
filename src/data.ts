@@ -5,8 +5,8 @@ const data: IExperienceBlock[] = [
   company: "IPSoft",
   city: "New York, NY",
   role: "UI/UX Technical Lead",
-  from: "August 2011",
-  to: "September 2020",
+  from: "August 2017",
+  to: "August 2018",
   children: [
     "Engineer a chat application for customer service via AI, in React/Redux",
     "Manage projects and priorities using SCRUM for a team of 5 front-end developers",

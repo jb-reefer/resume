@@ -8,6 +8,7 @@ import { Hero } from './components/Hero';
 const App = (props: any) => (
   <div className="Container">
     <Hero />
+    <br />
     {data.map(job => (
       <ExperienceBlock company={job.company} city={job.city} role={job.role} from={job.from} to={job.to}>
         {job.children.map(entry => <Entry>{entry}</Entry>)}
