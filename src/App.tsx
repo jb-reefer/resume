@@ -1,7 +1,7 @@
 import React from 'react';
 import { ExperienceBlock } from './components/ExperienceBlock';
-import './App.css'
 import { Entry } from './components/Entries';
+import './App.css'
 
 const App = (props: any) => (
   <div className="Container">

@@ -8,10 +8,7 @@ export interface IExperienceBlock extends IHeader, IDuration {
 
 export const ExperienceBlock = (props: IExperienceBlock ) => (
   <>
-  <div className="Header">
-    <Header company={props.company} city={props.city} role={props.role} />
-    <Duration from={props.from} to={props.to} />
-  </div>
+  <Header company={props.company} city={props.city} role={props.role} from={props.from} to={props.to} />
   <Entries>
     {props.children}
   </Entries>
