@@ -1,0 +1,18 @@
+.Header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Subheader {
+  font-weight: bold;
+}
+
+.Role {
+  font-style: italic;
+}
+
+.Entries {
+  
+}
