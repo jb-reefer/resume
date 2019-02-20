@@ -2,6 +2,7 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://jbreefer.nyc",
   "dependencies": {
     "react": "^16.8.2",
     "react-dom": "^16.8.2"
