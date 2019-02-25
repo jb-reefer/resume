@@ -8,12 +8,11 @@ WORKDIR /usr/src/app
 # where available (npm@5+)
 COPY package*.json ./
 
-RUN npm ci --only=production
+RUN npm ci
 RUN npm install -g serve
-RUN npm run build
 
 # Bundle app source
 COPY . .
 
-EXPOSE 8080
+RUN npm run build
 CMD [ "serve", "-s", "build" ]
