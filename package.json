@@ -5,7 +5,8 @@
   "homepage": "http://jbreefer.nyc",
   "dependencies": {
     "react": "^16.8.2",
-    "react-dom": "^16.8.2"
+    "react-dom": "^16.8.2",
+    "react-scripts": "2.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,7 +31,6 @@
     "@types/react-dom": "^16.8.2",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.9.1",
-    "react-scripts": "2.1.5",
     "typescript": "^3.3.3"
   }
 }
