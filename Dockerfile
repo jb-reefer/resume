@@ -10,6 +10,7 @@ COPY package*.json ./
 
 RUN npm ci --only=production
 RUN npm install -g serve
+RUN npm run build
 
 # Bundle app source
 COPY . .
