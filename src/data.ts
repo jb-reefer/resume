@@ -9,7 +9,11 @@ const data: IExperienceBlock[] = [
   from: "August 2018",
   to: "Present",
   children: [
-    "",
+    "Build an agentive system that schedules meetings using AI/ML over email and a web UI",
+    "Migrate existing services to Typescript-based microservices",
+    "Wrote React email templates and added ability for clients to take action directly from emails instead of requiring natural-language responses, cutting down on spend and chatter",
+    "Moved from a git-stored dependency system to a modern, npm ci and private npm repo based paradigm",
+    "Worked on all areas of the system such as writing web experiences, building and testing APIs, modifying deployment systems and architecting new systems",
   ],
 },
 {
