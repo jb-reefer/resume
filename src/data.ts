@@ -2,7 +2,19 @@ import { IExperienceBlock } from "./components/ExperienceBlock";
 
 const data: IExperienceBlock[] = [
 {
+  company: "x.ai",
+  website: "https://x.ai",
+  city: "New York, NY",
+  role: "Senior Software Engineer II",
+  from: "August 2018",
+  to: "Present",
+  children: [
+    "",
+  ],
+},
+{
   company: "IPSoft",
+  website: "https://www.ipsoft.com",
   city: "New York, NY",
   role: "UI/UX Technical Lead",
   from: "August 2017",
@@ -16,14 +28,15 @@ const data: IExperienceBlock[] = [
     "Created reproducible builds with Yarn and a new set of team version management rules",
     "Work with clients and internal stakeholders to create roadmaps, groom feature set, and change our development cycles to better meet their needs",
     "Made user interface client-customizable, eliminating the need for separate per-client builds and allowing developers to do development instead of operations",
-  ]
+  ],
 },
 {
-  company: 'Rethink Autism',
-  role: 'Full Stack Engineer',
-  city: 'New York, NY',
-  from: 'March 2017',
-  to: 'June 2017',
+  company: "Rethink Autism",
+  website: "https://www.rethinkfirst.com",
+  role: "Full Stack Engineer",
+  city: "New York, NY",
+  from: "March 2017",
+  to: "June 2017",
   children: [
     "Completely rebuilt the public facing pages to use Angular components, RESTful endpoints to retrieve and update data, and generally move towards a more modern architecture",
     "Guided the existing team through a tooling upgrade: new SCM strategy, new IDE version and tooling, and began process of implementing a CI/CD pipeline",
@@ -31,11 +44,12 @@ const data: IExperienceBlock[] = [
     "Implemented full site search with autocomplete, by writing a site crawler and integrating with Algolia",
     "Major UI and readability changes to graphs in dashboards and user facing reporting",
     "Frequently refactored legacy code to follow separation of concerns, remove obsolete libraries, reduce NIH syndrome, etc.",
-    "Built first team components with Entity Framework, and began migrating site to dotnet core"
-  ]
+    "Built first team components with Entity Framework, and began migrating site to dotnet core",
+  ],
 },
 {
   company: "Apprenda LLC",
+  website: "https://apprenda.com",
   from: "September 2015",
   to: "February 2017",
   city: "New York, NY",
@@ -46,11 +60,12 @@ const data: IExperienceBlock[] = [
     "Utilize Vagrant, Packer, and Chef to spin up user-defined multi-node environments for testing our Platform-as-a-Service directly on a developer's machine, shortening a 24 hour build-test cycle to 20 minutes",
     "Wrote MSI installation packages (and a new build process around them) to install critical Apprenda services",
     "Product owner for multiple critical tools, such as a command line client for interacting with and scripting the platform, a tool for bulk loading data (users, subscriptions, applications) into the platform, and our mission-critical, failure-tolerant Installer/Upgrader/Uninstaller desktop application (which has more than 150,000 LOC)",
-    "Work in Ruby, Go, Python, C#, Bash, Scala, and Powershell"
-  ]
+    "Work in Ruby, Go, Python, C#, Bash, Scala, and Powershell",
+  ],
 },
 {
   company: "QueBIT Consulting LLC",
+  website: "https://quebit.com",
   from: "March 2013",
   to: "September 2015",
   city: "New York, NY",
@@ -70,9 +85,8 @@ const data: IExperienceBlock[] = [
     "Extended DotNetHighCharts API to produce HighMaps in JavaScript",
     "Configured JMeter to stress test, analyze, and report on web page performance under arbitrary loads to ensure Nielsen Ratings could provide an acceptable user experience with their existing hardware configuration with 2,000+ concurrent TM1 users",
     "Reverse engineered the method flow of TM1Web, to spoof authentication, manipulate data, request specific pages based on user input, and log out, while analyzing performance of each step",
-    "Extended the built-in capabilities of JMeter by using batch scripting and TM1 cache invalidation (non-trivial) using TurboIntegrator scripting"
-  ]
+    "Extended the built-in capabilities of JMeter by using batch scripting and TM1 cache invalidation (non-trivial) using TurboIntegrator scripting",
+  ],
 }];
-
 
 export default data;

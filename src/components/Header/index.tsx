@@ -8,6 +8,7 @@ export interface IDuration {
 
 export interface IHeader {
   company: string;
+  website: string;
   city: string;
   role: string;
 }
@@ -16,7 +17,7 @@ export const Header = (props: IHeader & IDuration) => (
   <div>
     <div className="Role">{props.role}</div>
     <div className="Header">
-      <div className="Subheader">{props.company}</div>
+      <div className="Subheader"><a href={props.website} target="_blank">{props.company}</a></div>
       <Duration to={props.to} from={props.from} />
     </div>
     <div className="Subheader">{props.city}</div>

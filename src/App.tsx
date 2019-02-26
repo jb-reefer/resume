@@ -12,7 +12,7 @@ const App = (props: any) => (
     <Hero />
     <br />
     {data.map((job) => (
-      <ExperienceBlock company={job.company} city={job.city} role={job.role} from={job.from} to={job.to}>
+      <ExperienceBlock {...job}>
         {job.children.map((entry) => <Entry>{entry}</Entry>)}
       </ExperienceBlock>
     ))}
