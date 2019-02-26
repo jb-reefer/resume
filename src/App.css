@@ -4,6 +4,12 @@
   font-size: 18pt;
 }
 
+.ForkMe {
+  text-align: center;
+  font-size: small;
+  width: 100%;
+}
+
 @media (max-width: 375px) {
   .Container {
     font-size: 13pt;
