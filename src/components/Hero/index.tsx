@@ -1,5 +1,6 @@
-import React from 'react';
-import './Hero.css';
+import React from "react";
+import { GithubButton } from "../GithubButton";
+import "./Hero.css";
 
 export const Hero = (props: any) => (
   <address className="Hero">
@@ -8,8 +9,8 @@ export const Hero = (props: any) => (
     <div>New York, NY 10128</div>
     <div>(573) 308-2658</div>
     <div className="Contacts">
-      <a href="https://github.com/jb-reefer"><img height="24" src="/GitHub-Mark-64px.png" /></a>|
+      <GithubButton link="https://github.com/jb-reefer" />
       <a href="mailto:james.reefer@gmail.com?subject=Let's be friends!">Email</a>
     </div>
   </address>
-)
+);
