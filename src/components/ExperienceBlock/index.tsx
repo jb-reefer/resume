@@ -1,6 +1,6 @@
-import * as React from 'react';
-import { Entries } from '../Entries';
-import { Header, Duration, IHeader, IDuration } from '../Header';
+import * as React from "react";
+import { Entries } from "../Entries";
+import { Header, IDuration, IHeader } from "../Header";
 
 export interface IExperienceBlock extends IHeader, IDuration {
   children: any[];
@@ -13,4 +13,4 @@ export const ExperienceBlock = (props: IExperienceBlock ) => (
     {props.children}
   </Entries>
   </>
-)
+);

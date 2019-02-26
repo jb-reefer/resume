@@ -1,5 +1,5 @@
-import * as React from 'react';
-import './Header.css';
+import * as React from "react";
+import "./Header.css";
 
 export interface IDuration {
   from: string;
@@ -26,4 +26,3 @@ export const Header = (props: IHeader & IDuration) => (
 export const Duration = (props: IDuration) => (
   <div className="Subheader">{props.from} - {props.to}</div>
 );
-

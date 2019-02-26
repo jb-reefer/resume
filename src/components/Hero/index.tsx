@@ -5,7 +5,6 @@ import "./Hero.css";
 export const Hero = (props: any) => (
   <address className="Hero">
     <h1 title="Really it's James Brooks Gardner Reefer but this is so much simpler">J.B. Reefer</h1>
-    {/* <div>Senior/Lead Full Stack Engineer</div> */}
     <div>New York, NY 10128</div>
     <div>(573) 308-2658</div>
     <div className="Contacts">

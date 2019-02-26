@@ -6,4 +6,6 @@ export const Entries = (props: { children: any }) => (
   </ul>
 );
 
-export const Entry = (props: { children: any }) => (<li style={{margin: '0.5rem' }}>{props.children}</li>);
+export const Entry = (props: { children: any }) => (
+  <li style={{margin: "0.5rem" }}>{props.children}</li>
+);
